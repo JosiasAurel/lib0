@@ -11,6 +11,7 @@
 import { Observable } from './observable.js'
 import * as time from './time.js'
 import * as math from './math.js'
+import WebSocket from "ws";
 
 const reconnectTimeoutBase = 1200
 const maxReconnectTimeout = 2500

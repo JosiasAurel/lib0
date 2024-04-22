@@ -1,7 +1,7 @@
 {
-  "name": "lib0",
-  "version": "0.2.93",
-  "description": "",
+  "name": "@josias_aurel/lib0",
+  "version": "0.2.94",
+  "description": "lib0 with websocket module working server-side",
   "sideEffects": false,
   "type": "module",
   "main": "./dist/index.cjs",
@@ -481,7 +481,9 @@
     }
   },
   "dependencies": {
-    "isomorphic.js": "^0.2.4"
+    "@types/ws": "^8.5.10",
+    "isomorphic.js": "^0.2.4",
+    "ws": "^8.16.0"
   },
   "devDependencies": {
     "@types/node": "^18.14.0",
